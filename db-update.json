@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Miguel",
+      "email": "miguel_suarez@example.com",
+      "role": "customer"
+    },
+    {
+      "name": "raul",
+      "email": "raul@outlook.com",
+      "role": "admin",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Pro",
+      "description": "High end laptop 16 RAM",
+      "price": 888.23,
+      "stock": 40,
+      "category": "electronics"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone x",
+      "description": "Latest smartphone 5G",
+      "price": 655.31,
+      "stock": 100,
+      "category": "electronics"
+    },
+    {
+      "id": 3,
+      "name": "Coffee Maker",
+      "description": "Automatic coffee machine with milk",
+      "price": 146.20,
+      "stock": 30,
+      "category": "home"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 3,
+      "date": "2025-05-10T14:30:00Z",
+      "status": "delivered",
+      "total": 1123.79,
+      "products": []
+    }
+  ]
+}
